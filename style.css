@@ -1,0 +1,374 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.main1,.main2,.main3,.main4,.main5{
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+.main1 .back,.main2 .back1,.main3 .back2,.main4 .back3,.main5 .back4{
+    width: 100vw;
+    height: 100vh;
+}
+.main1{
+    background-image: url("back2.jpg");
+}
+.main1 .back{
+    background-color: rgba(0, 0, 255,0.2);
+}
+.main1 .back .nav{
+    height: 5rem;
+    width: 100vw;
+    display:flex;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.main1 .back .nav:hover{
+    background-color: rgba(255, 255, 255,0.2);
+}
+.main1 .back .nav .new{
+    height: 5rem;
+    width: 400px;
+    font-size:3rem;
+    font-family: arial black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 200px;
+    text-shadow:2px 2px 4px  white ;
+}
+.main1 .back .nav .new2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    height: 5rem;
+    width: 100%;
+    margin-right: 50px;
+}
+.main1 .back .nav .new2 a{
+    text-decoration: none;
+    color: white;
+}
+.main1 .back .nav .new2 i{
+    color: white;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 1px rgb(99, 2, 255);
+    cursor: pointer;
+}
+.main1 .back .nav .new2 .home{
+    height: 30px;
+    border: none;
+    font-size: 1.1rem;
+    font-family: arial black;
+    text-shadow: 2px 2px 4px rgb(99, 2, 255);
+}
+.main1 .back .nav .new2 .home:hover{
+    border-bottom: 5px solid rgb(0, 0, 79); 
+    transition: all 90ms ease;
+}
+/* ? */
+.main1 .back .hello{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 80vh;
+}
+.main1 .back .hello .hello1{
+    width: 50%;
+    height: 80vh;
+    text-align:center;
+}
+.main1 .back .hello .hello1 h3{
+    font-size: 3rem;
+}
+.main1 .back .hello .hello1 h2{
+    font-size: 4rem;
+}
+.main1 .back .hello .hello1 h1{
+    font-size: 5rem;
+}
+.main1 .back .hello .hello1 .x{
+    font-family: arial;
+    color:white;
+    font-weight: 900;
+    letter-spacing: 7px;
+    text-shadow: 5px 5px 4px rgb(56, 8, 132);
+}
+.main1 .back .hello .hello1 p{
+    color: white;
+    font-family: arial;
+    margin-top: 50px;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-align: justify;
+}
+ button{
+    background-color:rgb(2, 12, 57);
+    color: white;
+    height: 40px;
+    width: 110px;
+    font-family: arial;
+    font-weight: 600;
+    border-radius:10px;
+    border: none;
+    margin-top: 50px;
+    box-shadow: 0 0 5px 1px white;
+    cursor: pointer;
+}
+ button:hover{
+    border: 2px solid rgb(1, 1, 1);
+    box-shadow:0px 0px 30px 8px white;
+}
+.main2{
+    background-image: url("back3.jpg");
+}
+.main2 .back1{
+    background-color: rgba(0, 255, 170, 0.2);
+}
+.main2 .back1 .heading{
+    height: 150px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 2.5rem;
+    font-family: arial;
+    color:rgb(0, 0, 0);
+    font-weight: 900;
+    letter-spacing: 7px;
+    text-shadow: 5px 5px 4px rgb(0, 255, 162);
+}
+.main2 .back1 .section{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.main2 .back1 .section .box{
+    height: 300px;
+    width: 260px;
+    text-align: center;
+}
+.main2 .back1 .section .box img{
+    margin-bottom:20px;
+}
+.main2 .back1 .section .box h2{
+    font-size: 1.3rem;
+    font-family: arial black;
+    text-shadow:0 0 3px white;
+    margin-bottom: 20pX;
+}
+.main2 .back1 .section .box p{
+    color: white;
+    font-family: arial;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    letter-spacing: 2px;
+    font-weight: 600;
+    background-color: rgbA(0, 0, 0,0.3); 
+}
+.main3{
+    background-image: url("back5.jpg");
+}
+.main3 .back2{
+    background-color: rgba(0, 42, 255, 0.3);
+}
+.main3 .back2 .head,
+.main4 .back3 .head
+{
+    height: 150px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 2rem;
+    font-family: arial;
+    color:rgb(0, 0, 0);
+    font-weight: 900;
+    letter-spacing: 7px;
+    text-shadow: 3px 3px 4px rgb(255, 255, 255);
+    margin-bottom: 100px;
+}
+.main3 .back2 .para{
+    width: 70%;
+    color: white;
+    font-family: arial;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-align: justify;
+    background-color: rgbA(0, 0, 0,0.1); 
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+/* ? */
+.main4{
+    background-image: url("back1.jpg");
+}
+.main4 .back3{
+    background-color:rgba(255, 0, 0, 0.3);
+}
+.main4 .back3 .head{
+    margin-bottom: 0px;
+    align-items: center;
+}
+.main4 .back3 .mclass{
+    width: 100wv;
+    height:450px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.main4 .back3 .mclass .class{
+    height: 400px;
+    width: 350px;
+    font-family: arial;
+    color: white;
+    font-weight: 900;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+.main4 .back3 .mclass .class .img1{
+    background-image: url("t1.jpg");
+}
+.main4 .back3 .mclass .class .img2{
+ background-image: url("t4.jpeg");
+}
+.main4 .back3 .mclass .class .img3{
+    background-image: url("t3.jpg");
+}
+.main4 .back3 .mclass .class .ing{
+    background-size:cover;
+    height: 350px;
+    width: 300px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.main4 .back3 .mclass .class .hov{
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    color:blue;
+    font-size: 2rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   column-gap:20px;
+   border-radius: 30px;
+   box-shadow:0 0 5px 1px black;
+   position: absolute;
+   top: 375px;
+}
+.main4 .back3 .mclass .class .hov:hover{
+    box-shadow:0px 0px 30px 8px rgb(0, 0, 0);
+
+}
+.main4 .back3 .mclass .class .hov i{
+    cursor: pointer;
+}
+/* ? */
+.main5{
+    background-image:url("back7.jpeg") ;
+}
+.main5 .back4{
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+}
+.main5 .back4 .image{
+    background-image: url("contact-img.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.main5 .back4 .form{
+    height: 100%;
+    width:50%;
+}
+.main5 .back4 .form h1{
+    color: white;
+    font-size:3rem;
+    text-shadow: 1px 1px 3px blue;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: arial;
+}
+.main5 .back4 .form form{
+    height: 400px;
+    width: 300px;
+}
+.main5 .back4 .form form .in{
+    position: relative;
+    margin-bottom: 20px;
+}
+.main5 .back4 .form form .in label{
+    font-size: 1.3rem;
+    position: absolute;
+    left: 1rem;
+    top:0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.main5 .back4 .form form .in input{
+    height: 40px;
+    width: 300px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid blue;
+    position: relative;
+    z-index: 1;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.main5 .back4 .form form textarea{
+    height: 150px;
+    width: 300px;
+    border: 2px solid blue;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.main5 .back4 .form form .in input:focus ~ label,
+.main5 .back4 .form form .in input:not(:placeholder-shown) ~ label {
+    font-size: 1rem;
+    top: -0.5rem;
+    z-index: 1;
+    color: blue;
+    transition: all 300ms ease-in-out;
+}
+footer{
+    background-color: rgb(23, 23, 43);
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+footer .fot i{
+    font-size: 2rem;
+    margin-bottom: 20px;
+
+}
+footer .fot{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer .fot p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
