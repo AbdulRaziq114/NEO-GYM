@@ -1,0 +1,5 @@
+
+git checkout -b huzaifa   # (Agar branch nahi bani to ye create karega)
+git add .                 # (Sab changes staging area me add honge)
+git commit -m "huzaifa sec"  # (Commit karne ke liye)
+git push -u origin huzaifa   # (First time push aur upstream set karne ke liye)
